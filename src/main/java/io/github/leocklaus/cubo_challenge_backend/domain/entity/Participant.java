@@ -25,6 +25,13 @@ public class Participant {
 
     public Participant(){}
 
+    public Participant(Long id, String firstName, String lastName, Double percentage){
+        this.id = id;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.percentage = percentage;
+    }
+
     public Participant(String firstName, String lastName, Double percentage){
         this.firstName = firstName;
         this.lastName = lastName;
